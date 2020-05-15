@@ -1,0 +1,18 @@
+{
+  "name": "venomousboy/doctrine-transaction-handler",
+  "description": "Doctrine handler realisation for transaction manager",
+  "type": "library",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.2",
+    "doctrine/orm": "^2.4",
+    "venomousboy/transaction-manager": "^0.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Venomousboy\\TransactionManager\\": "src/"
+    }
+  }
+}
